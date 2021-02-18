@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+// import { withRouter } from 'react-router-dom';
 //con withRouter se pasan los props del Router del padre
 import './Post.css';
 
@@ -14,4 +14,5 @@ const post = (props) => {
    )
 };
 
-export default withRouter(post);
+// export default withRouter(post);
+export default post;
